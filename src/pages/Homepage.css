@@ -1,0 +1,363 @@
+/* Estilos para el contenedor principal */
+
+.homepage-container {
+  padding: 8px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  color: rgb(102, 175, 238);
+  transition: background-color 0.3s; /* Transición suave para el cambio de color de fondo */
+  cursor: pointer; /* Cambia el cursor al hacer hover para indicar que es interactivo */
+}
+.homepage-container h1 {
+  text-decoration: underline;
+  text-decoration-color: rgba(10, 0, 0, 0.5);
+  font-size: 20px;
+}
+
+/* Cambio de color de fondo al hacer scroll */
+.homepage-container.scrolled {
+  background-color: rgba(1, 11, 20, 0.5);
+}
+
+/* Estilos para la imagen del logo */
+.homepage-container img {
+  margin-right: 10px;
+  width: 4em;
+  height: 2.5em;
+  pointer-events: none;
+  transition: transform 0.3s ease-in-out; /* Efecto de transición suave */
+}
+
+/* Efecto de escala al hacer hover en el logo */
+.logo-img:hover {
+  transform: scale(1.1);
+}
+
+.full-width-img {
+  width: 100%;
+  height: 34rem;
+  margin: 0;
+  padding: 0;
+  display: block;
+  transition: transform 0.3s ease-in-out; /* Efecto de transición suave */
+}
+.left-images h2{
+  text-align: center;
+  color: #e4d01a;
+}
+
+/* Estilos para las banderas */
+.Banderas-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+.bandera {
+  width: 10em;
+  height: auto;
+  margin-right: 30px;
+  position: relative;
+  transition: transform 0.3s ease-in-out; /* Efecto de transición suave */
+}
+
+/* Efecto de rotación al hacer hover en las banderas */
+.bandera:hover {
+  transform: rotate(10deg);
+}
+
+/* Estilos para el contenedor de texto */
+.Texto-container {
+  margin: 2rem auto;
+  max-width: 800px;
+  padding: 0 1rem;
+  text-align: justify;
+  color: #333;
+  line-height: 1.6;
+}
+
+.Texto-container p {
+  margin: 2rem auto;
+  max-width: 800px;
+  padding: 0 1rem;
+  text-align: justify;
+  color: #333;
+  line-height: 1.6;
+}
+
+.Texto-container h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #e4d01a;
+  font-size: 24px;
+
+}
+
+.Texto-container h3 {
+  margin-bottom: 1rem;
+  color: #007bff;
+  text-align: center;
+  font-size: 24px;
+}
+
+/* Estilos para la sección de Misión y Visión */
+.MisionVision-container {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.MisionVision-container h4 {
+  color: #007bff;
+  font-size: 24px;
+
+}
+
+/* Estilos para las imágenes del lado */
+.ImagenesLado {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
+  height: 6rem;
+  margin: 10px;
+  transition: transform 0.3s ease-in-out; /* Efecto de transición suave */
+  padding: 1rem;
+}
+.ImagenesLado img {
+  transition: transform 0.3s ease-in-out; /* Efecto de transición suave */
+}
+
+.ImagenesLado img:hover {
+  transform: scale(1.1); /* Aumenta ligeramente el tamaño al hacer hover */
+  opacity: 0.8; /* Reduce la opacidad al hacer hover */
+}
+
+/* Efecto de escala al hacer hover en las imágenes del lado */
+
+.Descarga {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.Descarga:hover {
+  background-color: #0056b3;
+}
+
+/* Estilos para el contenedor del carrusel */
+.carrusel-container {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  margin-top: 20px; /* Ajusta el margen superior según sea necesario */
+}
+
+/* Estilos para el contenedor de las imágenes del carrusel */
+.carrusel-imagen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.5s ease;
+}
+
+/* Estilos para cada imagen del carrusel */
+.carrusel-imagen img {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
+  height: 20rem;
+  margin: 10px;
+  transition: transform 0.3s ease-in-out; /* Efecto de transición suave */
+  padding: 1rem;
+}
+
+/* Estilos para los botones del carrusel */
+.carrusel-botones {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px; /* Espacio entre el carrusel y los botones */
+}
+
+.carousel-button {
+  cursor: pointer;
+  padding: 6px 12px; /* Ajusta el tamaño de los botones */
+  margin-right: 5px; /* Espacio entre los botones */
+  border: none;
+  border-radius: 5px; /* Hace los botones ligeramente redondeados */
+  background-color: none;
+  color: #fff;
+  font-size: 14px; /* Reduce el tamaño del texto */
+  transition: background-color 0.3s;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.carrusel-container h3 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #007bff;
+  font-size: 24px;
+}
+.carousel-button img {
+  width: 50px; /* Ajusta el ancho de las imágenes */
+  height: auto; /* Mantiene la proporción de la imagen */
+}
+
+.carousel-button:hover {
+  background-color: #007bff;
+}
+
+.footerTitle h3 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #007bff;
+  margin-top: 3rem;
+}
+
+.footerTitle p {
+  margin: 1rem auto;
+  max-width: 800px;
+  padding: 0 1rem;
+  text-align: justify;
+  color: #333;
+  line-height: 1.6;
+}
+
+.footerTitle {
+  display: flex;
+  flex-direction: column; /* Alinea los elementos verticalmente */
+  align-items: center; /* Centra los elementos horizontalmente */
+  text-align: center; /* Alinea el texto al centro */
+}
+
+.ImagesFooter {
+  display: flex; /* Utiliza flexbox para alinear las imágenes */
+  justify-content: center; /* Centra las imágenes horizontalmente */
+  margin-top: 10px; /* Agrega un margen superior entre el texto y las imágenes */
+}
+
+.ImagesFooter img {
+  max-width: 50%;
+  margin: 0 5px;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+}
+
+.ImagesFooter img:hover {
+  transform: scale(1.05) rotate(5deg);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.join-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 20px; /* Espacio arriba del botón */
+  margin-bottom: 20px; /* Espacio abajo del botón */
+  border: none;
+}
+
+.join-button:hover {
+  background-color: #0056b3;
+}
+/* Pie de página */
+
+.contact__section {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  margin-top: 40px;
+  margin-right: -100px;
+}
+.contact__elements {
+  text-align: center;
+}
+.contact__elements h4 {
+  font-size: 1.2rem;
+}
+.contact__section img {
+  max-width: 40px;
+  opacity: 0.3;
+}
+/* Estilos para enlaces en el pie de página */
+
+.contact__elements{
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+.float {
+  position: fixed;
+  width: 60px;
+  height: 55px;
+  bottom: 50px;
+  right: 40px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 40px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
+.float:hover {
+  text-decoration: none;
+  color: #25d366;
+  background-color: #fff;
+}
+.aviso {
+  display: flex; /* Para alinear los enlaces horizontalmente */
+  justify-content: center; /* Para centrar los enlaces horizontalmente */
+  background-color: #007bff;
+}
+
+.aviso a {
+  text-decoration: none; /* Quitar subrayado predeterminado */
+  color: #f7e7e7; /* Color del texto de los enlaces */
+  margin: 0 40px; /* Espaciado entre los enlaces */
+  transition: color 0.3s ease; /* Transición suave para el cambio de color */
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+
+}
+
+.aviso a:hover {
+  color: #d6e419; /* Cambia el color del texto al hacer hover */
+}
+
+.donate-button {
+  position: fixed;
+  bottom: 50px;
+  left: 30px;
+  padding: 10px 20px;
+  background-color: blue;
+  color: white;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  position: fixed;
+}
+
+.donate-button:hover {
+  background-color: darkblue;
+}
+

@@ -1,0 +1,23 @@
+/* Estilos para el contenedor principal de la página */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-color: aliceblue;
+}
+/* Estilos base para los títulos */
+h2, h3, h4 {
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  
+  /* Efecto al pasar el mouse sobre los títulos */
+  h2:hover, h3:hover, h4:hover {
+    color: blue; /* Cambia el color al pasar el mouse sobre los títulos */
+    transform: scale(1.1); /* Aumenta ligeramente el tamaño al pasar el mouse sobre los títulos */
+  }
+  
