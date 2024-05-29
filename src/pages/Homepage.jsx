@@ -26,7 +26,7 @@ const Homepage = () => {
     <section className="container">
       <div className="left-images">
         <header>
-          <img
+        <img
             className="full-width-img"
             src="/InstituciónBarak25.jpg"
             alt="Head"
@@ -44,12 +44,7 @@ const Homepage = () => {
       </div>
       <main className="center-text">
         <header className="homepage-container">
-          <img
-            className="logo-img"
-            src="/institucion-barak-ayuda-al-refugiado.png"
-            alt="LogoInstitucion"
-          />
-          <h2>Institución Barak</h2>
+
         </header>
         <a
           href="https://api.whatsapp.com/send?phone=34685271755&text=Hola%20como%20estas,%20deseo%20tener%20contacto%20con%20la%20instituciòn%20Barak"

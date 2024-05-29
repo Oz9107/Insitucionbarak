@@ -1,0 +1,58 @@
+/* src/components/Navbar.css */
+.navbar {
+    background-color: #868181;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .navbar-logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-img {
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .navbar-logo h2 {
+    color: white;
+    margin: 0;
+    font-size: 1.5em;
+  }
+  
+  .navbar-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .navbar-menu li {
+    margin: 0 10px;
+  }
+  
+  .navbar-menu li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .navbar-menu li a:hover {
+    background-color: #575757;
+    color: white;
+  }
+  
+  .body-content {
+    padding-top: 70px; /* Ajusta este valor según la altura de tu navbar */
+  }
+  
